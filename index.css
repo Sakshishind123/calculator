@@ -1,0 +1,75 @@
+/* #calci
+{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    margin-bottom: 2px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+#calci{
+    text-align: center;
+    align-items: center;
+    margin-left: 280px;
+}
+
+body{
+    margin: 0%;
+}
+
+h1{
+
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+#calci {
+    display: flex;
+    /* flex-direction: column; Stack items vertically */
+    justify-content: center; 
+    align-items: center; /* Center items horizontally */
+    /* width: 100%; */
+
+   /* Include padding and border in width and height */
+    margin: 0; /* Remove default margin */
+}
+
+button {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+body {
+    margin: 0; /* Remove default margin */
+}
+
+h1 {
+    text-align: center;
+}
